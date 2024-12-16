@@ -1,7 +1,6 @@
 package ListaNomes;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Random;
 import java.util.Scanner;
 
 public class ListaNomes {
@@ -9,10 +8,10 @@ public class ListaNomes {
     private String nomes;
     private int id;
     public void cadastrar(){
-        List<Integer>numeroAleatorio = new ArrayList<Integer>();
+        Random aleatorioId = new Random();
         nomes = entrada.nextLine();
-        numeroAleatorio.stream().sequential();
-        System.out.println(nomes);
+        id= aleatorioId.nextInt();
+        System.out.println(nomes+" "+id);
         
     }
 
