@@ -8,7 +8,8 @@ public class App {
 List<ListaNomes>nomes = new ArrayList<ListaNomes>();
 ListaNomes nomePessoa = new ListaNomes(); 
 
-
+nomePessoa.cadastrar();
+nomes.add(nomePessoa);
 
 
 }

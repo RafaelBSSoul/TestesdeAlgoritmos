@@ -1,8 +1,20 @@
 package ListaNomes;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
 public class ListaNomes {
+    Scanner entrada = new Scanner(System.in);
     private String nomes;
     private int id;
+    public void cadastrar(){
+        List<Integer>numeroAleatorio = new ArrayList<Integer>();
+        nomes = entrada.nextLine();
+        numeroAleatorio.stream().sequential();
+        
+    }
+
     @Override
     public String toString() {
         return "ListaNomes [nomes=" + nomes + ", id=" + id + "]";
