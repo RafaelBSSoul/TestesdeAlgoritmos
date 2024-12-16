@@ -9,8 +9,10 @@ List<ListaNomes>nomes = new ArrayList<ListaNomes>();
 ListaNomes nomePessoa = new ListaNomes(); 
 
 nomePessoa.cadastrar();
+nomePessoa.cadastrar();
+
 nomes.add(nomePessoa);
 
-
+System.out.println(nomes);
 }
 }

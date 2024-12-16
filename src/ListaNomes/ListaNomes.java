@@ -12,6 +12,7 @@ public class ListaNomes {
         List<Integer>numeroAleatorio = new ArrayList<Integer>();
         nomes = entrada.nextLine();
         numeroAleatorio.stream().sequential();
+        System.out.println(nomes);
         
     }
 
